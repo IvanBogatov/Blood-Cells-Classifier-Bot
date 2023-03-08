@@ -1,6 +1,6 @@
 # Blood-Cells-Classifier-Bot
 
-The bot can classify Blood Cells Images.
+Telegram bot can classify Blood Cells Images.
 
 Cell types: EOSINOPHIL, LYMPHOCYTE, MONOCYTE, NEUTROPHIL
 
@@ -11,3 +11,5 @@ How to run:
 - clone this repo
 - add TOKEN from @BotFather to `dockerfile`
 - `sudo docker-compose up --build` from bot folder
+
+#PyTorch #aiogram #docker
