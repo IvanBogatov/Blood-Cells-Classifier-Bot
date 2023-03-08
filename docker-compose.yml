@@ -1,16 +1,17 @@
 version: "3"
 services:
-  build: .
-  ports: 
-    - 8000:8000
-  networks:
-    bot:
-      ipv4_address: 172.19.0.44
-
-networks:
   bot:
-    driver: bridge
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.19.0.0/24
+    build: .
+    ports: 
+      - 8000:8000
+#   networks:
+#     bot:
+#       ipv4_address: 172.19.0.44
+
+# networks:
+#   bot:
+#     driver: bridge
+#     ipam:
+#       driver: default
+#       config:
+#         - subnet: 172.19.0.0/24
